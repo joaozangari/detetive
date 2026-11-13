@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Space Invaders - Detetive</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>SPACE INVADERS</h1>
+<p class="subtitulo">O Capitão apareceu morto na nave. Você é o militar novo na tripulação e precisa descobrir quem foi.</p>
+
+<div class="caixa">
+  <h2>Locais da nave</h2>
+  <div id="locais"></div>
+</div>
+
+<div class="caixa">
+  <h2>O que você vê</h2>
+  <div id="cena">Clique em um local para investigar. Comece pela Cabine, onde está o corpo.</div>
+</div>
+
+<div class="caixa">
+  <h2>Pistas encontradas: <span id="contador">0</span>/11</h2>
+  <div id="pistas">Nenhuma pista ainda.</div>
+</div>
+
+<div class="caixa">
+  <h2>Quem matou o Capitão?</h2>
+  <p id="aviso">Você precisa achar as 11 pistas antes de acusar alguém.</p>
+  <div id="suspeitos"></div>
+  <p id="resultado"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
